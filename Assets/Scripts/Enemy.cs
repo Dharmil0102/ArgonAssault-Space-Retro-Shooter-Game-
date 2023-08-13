@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject deathFX;
     [SerializeField] GameObject hitVFX;
-    [SerializeField] int scorePerHit = 15;
+    [SerializeField] int scorePerHit = 20;
     [SerializeField] int hitPoints = 1;
 
     ScoreBoard scoreBoard;
